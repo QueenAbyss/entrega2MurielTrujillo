@@ -1,0 +1,54 @@
+.card {
+  width: 100%;
+  max-width: 345px;
+  height: 400px;
+  margin: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #ca8787;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+ 
+  
+/* Responsivo para pantallas medianas */
+@media (max-width: 768px) {
+  .card {
+    max-width: 90%; 
+    height: auto; 
+  }
+
+  .cardMedia {
+    height: 200px;
+  }
+
+  .cardContent {
+    font-size: 0.9rem; 
+  }
+}
+
+
+@media (max-width: 480px) {
+  .card {
+    max-width: 100%; 
+    margin: 8px; 
+  }
+
+  .cardMedia {
+    height: 150px; 
+  }
+
+  .cardContent {
+    font-size: 0.8rem; 
+  }
+}
+  

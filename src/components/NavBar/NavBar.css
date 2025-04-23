@@ -1,0 +1,66 @@
+/* Contenedor principal del navbar */
+.navbar {
+    display: flex;
+    flex-direction: column; /* Botones en vertical */
+    align-items: center;
+    background-image: url('https://images2.alphacoders.com/100/thumb-1920-1003880.png'); /* Ruta de la imagen */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;   
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Título del navbar */
+.navbar-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Contenedor de los enlaces */
+.nav-links {
+    display: flex;
+    flex-direction: column; /* Botones en vertical */
+    gap: 15px; /* Espaciado entre botones */
+    width: 100%;
+    align-items: center;
+}
+
+/* Estilo de los botones */
+.nav-button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #0b1c4b; /* Azul oscuro inspirado en el cinturón de Goku */
+    border: 2px solid #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Efecto hover en los botones */
+.nav-button:hover {
+    background-color: #fff;
+    color: #0b1c4b;
+    transform: scale(1.1);
+}
+
+/* Responsivo para pantallas pequeñas */
+@media (max-width: 768px) {
+    .navbar {
+        height: auto; 
+        padding: 10px;
+    }
+
+    .nav-button {
+        width: 100%; 
+        max-width: none; 
+    }
+}

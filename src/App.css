@@ -1,0 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  grid-template-columns: 1fr 4fr;
+}
+
+#div-header{
+  background-color:#4B4949;
+}
+
+#menu{
+  position:sticky;
+  top: 30px;
+}
+
+@media (max-width: 768px) {
+  .App {
+    grid-template-columns: 1fr; 
+  }
+
+  #div-header {
+    background-size: contain; 
+    height: 50vh; 
+  }
+}
+
+@media (max-width: 480px) {
+  .App {
+    grid-template-columns: 1fr; 
+  }
+
+  #div-header {
+    background-size: contain; 
+    height: 40vh; 
+  }
+}
