@@ -7,6 +7,7 @@ import HomePage from "./page/HomePage/HomePage";
 import CharacterPage from "./page/CharacterPage/CharacterPage";
 import AboutPage from "./page/AboutPage/AboutPage";
 import Detalle from "./page/Detalle/Detalle";
+import ErrorPage from "./components/ErrorPage/ErrorPage";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/femenino" element={<CharacterPage genero="Female"/>}/>
           <Route path="/about/:id" element={<AboutPage/>}/>
           <Route path="/details" element={<Detalle />} />
+          <Route path="*" element={<ErrorPage />} /> {/* Ruta para manejar errores */}
         </Routes>
       </Router>
     </div>
