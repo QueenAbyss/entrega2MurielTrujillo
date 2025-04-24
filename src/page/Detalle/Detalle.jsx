@@ -8,7 +8,7 @@ const Detalle = () => {
       <br/><br/><br/>
       <div className="detalle-container">
         <div className="detalle-header">
-          <img src="public/id_2.png" alt="Foto de desarrollador" className="detalle-imagen"/>
+          <img src="https://th.bing.com/th/id/OIP.0d-U1yr-9TxQ2TLj2hSEHwHaHa?rs=1&pid=ImgDetMain" alt="Foto de desarrollador" className="detalle-imagen"/>
           <h1 className="detalle-title">Lizeth Muriel Trujillo</h1>
           </div> 
         
