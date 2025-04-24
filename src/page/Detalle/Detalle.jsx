@@ -1,5 +1,4 @@
 import React from "react";
-import miImagen from "../../assets/id_2.png"; 
 import { Link } from "react-router-dom";
 import "./Detalle.css";
 
@@ -9,7 +8,7 @@ const Detalle = () => {
       <br/><br/><br/>
       <div className="detalle-container">
         <div className="detalle-header">
-          <img src={miImagen} alt="Foto de desarrollador" className="detalle-imagen"/>
+          <img src="public/id_2.png" alt="Foto de desarrollador" className="detalle-imagen"/>
           <h1 className="detalle-title">Lizeth Muriel Trujillo</h1>
           </div> 
         
